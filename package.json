@@ -1,0 +1,11 @@
+{
+  "name": "nxvite",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@nx/vite": "^18.3.1",
+    "vitest": "^1.5.0"
+  }
+}
