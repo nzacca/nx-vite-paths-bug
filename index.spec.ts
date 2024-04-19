@@ -1,7 +1,7 @@
-import { foo } from "~foo/foo.js"; // Remove .js extension to pass
+import index from "./index";
 
-describe('foo', () => {
-	it('foo', () => {
-		expect(foo).toEqual("bar");
+describe('index can import css', () => {
+	it('should not fail due to css import', () => {
+		expect(index).toEqual(".foo { color: red; }");
 	});
 });

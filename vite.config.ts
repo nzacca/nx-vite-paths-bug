@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   root: __dirname,
   plugins: [
-    nxViteTsPaths()
+    nxViteTsPaths() // Try with { extensions: [".ts", ".js", ".css"] }
   ],
   test: {
 		globals: true,

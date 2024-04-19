@@ -6,9 +6,10 @@
     "rootDir": ".",
     "moduleResolution": "node",
     "paths": {
-      "~foo/*": ["foo/*"]
+      "~foo/*": ["foo/*"],
+      "~css/*": ["css/*"]
     },
-    "types": ["vitest/globals", "node", "vitest"]
+    "types": ["vitest/globals", "vite/client", "node", "vitest"]
   },
   "include": ["**/*.ts"]
 }
